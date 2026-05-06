@@ -1,0 +1,9 @@
+# Task 3.3 - Fidelity vs. Correction Trade-off
+
+CER and WER can miss silent normalisation because they treat all edits as ordinary distance. If the ground truth contains `becaus I go Home` and the pipeline outputs `because I go home`, the score may look strong because only a few characters changed. For this use case, those changes are serious: the original spelling, casing, and non-standard grammar are part of the source signal. A fluent but corrected transcript can therefore receive a better CER/WER than a noisier transcript that preserves the writer's actual forms.
+
+I would reduce this risk in preprocessing by avoiding language-aware cleanup and by keeping OCR confidence tied to source regions. Post-processing should never spell-correct, grammar-correct, normalize casing, or merge fragments by default. The pipeline should preserve raw OCR text beside any filtered sentence output, flag low-confidence spans, and log every removed metadata line. Sentence segmentation should be rule-based and conservative: split only on visible punctuation and clear boundaries, not on inferred grammar.
+
+I would add a Non-Standard Preservation Rate. First, annotate ground-truth spans that are intentionally non-standard: misspellings, invented words, unusual casing, repeated letters, fragments, and non-standard grammar. Then compute the proportion of those spans preserved exactly or near-exactly in the predicted transcript. This metric directly asks whether the pipeline kept source-specific forms instead of correcting them.
+
+In CI/CD, every OCR or preprocessing change would run against a locked canary set containing normal and non-standard handwriting samples. A build fails if CER/WER regress beyond tolerance or if Non-Standard Preservation Rate drops below threshold. This prevents a change that improves average readability from silently damaging verbatim fidelity.

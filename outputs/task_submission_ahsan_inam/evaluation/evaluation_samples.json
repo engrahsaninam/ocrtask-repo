@@ -1,0 +1,17 @@
+[
+  {
+    "sample_id": "page1_story",
+    "ground_truth": "At 7:00am Tadeo woke up then he went to make coffee. Then Tadeo saw a shadow he got scared he scrxmd AAA A! Then it was his sister. His sister siad why are you drinking coffee it to early. Tadeo siad well I wokeup early and not you siad Tadeo. 13 hours later it was 8:00 the his family went to sleep but Tadeo got scard. He got his iPad and was watching youtube. The out of the window bright ligt then baam the house brook. He then his family woke up they hid there self int the bed. Then Tade went outside it was a ship. It had 30sec of a boomp. Tadeo ran told his family they got out on time. The end.",
+    "predicted": "Ver lee 1G \u00a307 ! a ToL. I f roe fan FI if ' MNO) lhe hee Cans + abe - af 1 PTs. Aud Js L. Pat aad Ne Vand tonto nal th te v ~f tt. ak \u2019 u ride u \\ ui tt - - Mr il ~ tt al | Cc i - L/ hee wrk fat Lhe Lo aed Lb Tae, neoak -\u201d \u00e9 hea when \u201d pane t ehant Weer af n bala ja t han fader ran \u2014 I barely Hee ane ak a a | the \u20acac/, f"
+  },
+  {
+    "sample_id": "page2_bus_driver",
+    "ground_truth": "In the picture I want to become a bus driver because I want to be rich. To learn how to drive you have to take a text to drive. I going to buy a computer and a game. Then I go home to have to drive. I going to be 35 bus and I going to be a kind bus drive.",
+    "predicted": "ie ~ bos toe ag for ot ae ha- gon Ve ae ging - See\u201d"
+  },
+  {
+    "sample_id": "page3_story_clearer_copy",
+    "ground_truth": "At 7:00am Tadeo woke up then he went to make coffee. Then Tadeo saw a shadow he got scared he scrxmd AAA A! Then it was his sister. His sister siad why are you drinking coffee it to early. Tadeo siad well I wokeup early and not you siad Tadeo. 13 hours later it was 8:00 the his family went to sleep but Tadeo got scard. He got his iPad and was watching youtube. The out of the window bright ligt then baam the house brook. He then his family woke up they hid there self int the bed. Then Tade went outside it was a ship. It had 30sec of a boomp. Tadeo ran told his family they got out on time. The end.",
+    "predicted": "Eee. a ght. an! a OX: ne 4 a scart ANAT. a a OO &, Hed. {co ae a Heng. Car 7 Cami \\ iS bad ne < CaS L. ar, ; % Pee ae = O- Jere \u201cqohe a ee ~aed was: (ea ie U aed cert i yom, - etait oe. Lhe ~ you 7 ww bree age. ths r- ico Lig bh ) ~~, Whe Meas \u2014\u2014 1S Forni) rv tole ih pee + \u2018d3,t he Fei wea th eng Shee out Ge ie oe ot De eres oe \u2014 5 LO. 5. N\u00b0 Ch ship, 3 a st \\~ . Becca wa oo ib ae Saas t _\u2014 - old... Liz oman, \u2014\u2014 7 Ko Camis yy cad te , iw\u201d & natwoank peeees. A the /~ ___hnttrsssssss"
+  }
+]

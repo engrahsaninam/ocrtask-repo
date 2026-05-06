@@ -1,0 +1,114 @@
+[
+  {
+    "sentence": "Ver lee 1G \u00a307 !",
+    "classifier_label": "Incomplete",
+    "final_label": "Incomplete",
+    "embedded": null,
+    "original_flag": "Incomplete",
+    "agent_path": [
+      "classifier",
+      "embedded"
+    ],
+    "classifier_reason": "The sentence does not form a coherent and complete thought; appears to be nonsensical or fragmented.",
+    "embedded_reason": "The input 'Ver lee 1G \u00a307 !' is incomplete and does not contain any recoverable complete clause or embedded clause.",
+    "ambiguous": true
+  },
+  {
+    "sentence": "a ToL.",
+    "classifier_label": "Incomplete",
+    "final_label": "Incomplete",
+    "embedded": null,
+    "original_flag": "Incomplete",
+    "agent_path": [
+      "classifier",
+      "embedded"
+    ],
+    "classifier_reason": "The text is too short and lacks a subject and predicate, making it an incomplete fragment.",
+    "embedded_reason": "The input 'a ToL.' is incomplete and does not contain any recoverable complete clause.",
+    "ambiguous": true
+  },
+  {
+    "sentence": "I f roe fan FI if ' MNO) lhe hee Cans + abe - af 1 PTs.",
+    "classifier_label": "Incomplete",
+    "final_label": "Incomplete",
+    "embedded": null,
+    "original_flag": "Incomplete",
+    "agent_path": [
+      "classifier",
+      "embedded"
+    ],
+    "classifier_reason": "The sentence appears to be garbled with no clear independent or dependent clauses, thus incomplete.",
+    "embedded_reason": "The input text is heavily corrupted and does not contain any recoverable complete clause or embedded clause.",
+    "ambiguous": true
+  },
+  {
+    "sentence": "Aud Js L.",
+    "classifier_label": "Incomplete",
+    "final_label": "Incomplete",
+    "embedded": null,
+    "original_flag": "Incomplete",
+    "agent_path": [
+      "classifier",
+      "embedded"
+    ],
+    "classifier_reason": "The phrase does not form a complete thought or recognizable sentence structure.",
+    "embedded_reason": "The input 'Aud Js L.' is incomplete and does not contain any recoverable complete clause or embedded clause.",
+    "ambiguous": true
+  },
+  {
+    "sentence": "Pat aad Ne Vand tonto nal th te v ~f tt.",
+    "classifier_label": "Incomplete",
+    "final_label": "Incomplete",
+    "embedded": null,
+    "original_flag": "Incomplete",
+    "agent_path": [
+      "classifier",
+      "embedded"
+    ],
+    "classifier_reason": "The sentence does not form a coherent or complete thought.",
+    "embedded_reason": "The input does not contain any recognizable complete or embedded clause due to heavy corruption and incompleteness.",
+    "ambiguous": true
+  },
+  {
+    "sentence": "ak \u2019 u ride u \\ ui tt - - Mr il ~ tt al | Cc i - L/ hee wrk fat Lhe Lo aed Lb Tae, neoak -\u201d \u00e9 hea when \u201d pane t ehant Weer af n bala ja t han fader ran \u2014 I barely Hee ane ak a a | the \u20acac/, f.",
+    "classifier_label": "Incomplete",
+    "final_label": "Incomplete",
+    "embedded": null,
+    "original_flag": "Incomplete",
+    "agent_path": [
+      "classifier",
+      "embedded"
+    ],
+    "classifier_reason": "The sentence is highly fragmented and does not form a coherent or complete sentence.",
+    "embedded_reason": "The input text is highly garbled and incomplete, failing to contain any recoverable complete clause.",
+    "ambiguous": true
+  },
+  {
+    "sentence": "ie ~ bos toe ag for ot ae ha- gon Ve ae ging - See\u201d.",
+    "classifier_label": "Incomplete",
+    "final_label": "Incomplete",
+    "embedded": null,
+    "original_flag": "Incomplete",
+    "agent_path": [
+      "classifier",
+      "embedded"
+    ],
+    "classifier_reason": "The sentence lacks clear structure or completeness.",
+    "embedded_reason": "The input appears to be a sequence of fragmented and nonsensical segments with no clear or complete clause. No recoverable complete clause or embedded clause is present.",
+    "ambiguous": true
+  },
+  {
+    "sentence": "Eee.",
+    "classifier_label": "Incomplete",
+    "final_label": "Incomplete",
+    "embedded": null,
+    "original_flag": "Incomplete",
+    "agent_path": [
+      "classifier",
+      "embedded"
+    ],
+    "classifier_reason": "Single fragment, does not form a complete sentence.",
+    "embedded_reason": "The input 'Eee.' is not a complete clause and contains no embedded clauses.",
+    "ambiguous": true
+  }
+]

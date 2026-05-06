@@ -1,0 +1,58 @@
+[
+  {
+    "page": "page1_image1.jpg",
+    "regions": [
+      {
+        "region_index": 1,
+        "bbox": [
+          29,
+          355,
+          16,
+          11
+        ],
+        "traditional_text": "L.",
+        "traditional_confidence": 0.0,
+        "fallback_text": "i -",
+        "fallback_uncertain": true,
+        "fallback_notes": "Handwritten character looks like a lowercase 'i' followed by a dash, but is unclear.",
+        "fallback_model": "gpt-4.1-mini",
+        "merge_decision": "human_review",
+        "guardrail_flag": false
+      },
+      {
+        "region_index": 2,
+        "bbox": [
+          426,
+          408,
+          5,
+          7
+        ],
+        "traditional_text": "\u2019",
+        "traditional_confidence": 0.0,
+        "fallback_text": "Cirtice?",
+        "fallback_uncertain": true,
+        "fallback_notes": "Handwriting is unclear and could possibly be 'Critice?' or 'Article?'. The presence of the question mark is certain.",
+        "fallback_model": "gpt-4.1-mini",
+        "merge_decision": "human_review",
+        "guardrail_flag": false
+      },
+      {
+        "region_index": 3,
+        "bbox": [
+          239,
+          457,
+          9,
+          6
+        ],
+        "traditional_text": "-",
+        "traditional_confidence": 0.0,
+        "fallback_text": "NO",
+        "fallback_uncertain": false,
+        "fallback_notes": "Single, clear handwritten word in uppercase.",
+        "fallback_model": "gpt-4.1-mini",
+        "merge_decision": "fallback_candidate",
+        "guardrail_flag": false
+      }
+    ]
+  }
+]

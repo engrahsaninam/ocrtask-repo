@@ -1,0 +1,32 @@
+{
+  "rows": [
+    {
+      "sample_id": "page1_story",
+      "cer": 0.728,
+      "wer": 0.9764,
+      "sentence_f1": 0.1053,
+      "composite": 0.1475
+    },
+    {
+      "sample_id": "page2_bus_driver",
+      "cer": 0.8353,
+      "wer": 1.0,
+      "sentence_f1": 0.0,
+      "composite": 0.0659
+    },
+    {
+      "sample_id": "page3_story_clearer_copy",
+      "cer": 0.7347,
+      "wer": 0.9606,
+      "sentence_f1": 0.0714,
+      "composite": 0.1394
+    }
+  ],
+  "aggregate": {
+    "samples": 3,
+    "cer": 0.766,
+    "wer": 0.979,
+    "sentence_f1": 0.0589,
+    "composite": 0.1176
+  }
+}

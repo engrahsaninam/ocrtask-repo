@@ -1,0 +1,8 @@
+[
+  {
+    "sample_id": "source_correction",
+    "ground_truth": "I siad I goed home.",
+    "predicted": "I said I went home.",
+    "sfs": 0.4286
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "sample_id": "sample_clean",
+    "ground_truth": "I woke up early. The light was bright.",
+    "predicted": "I woke up early. The light was bright."
+  },
+  {
+    "sample_id": "sample_verbatim",
+    "ground_truth": "becaus I go Home and",
+    "predicted": "because I go Home and"
+  }
+]

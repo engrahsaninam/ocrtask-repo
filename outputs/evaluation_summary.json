@@ -1,0 +1,25 @@
+{
+  "rows": [
+    {
+      "sample_id": "sample_clean",
+      "cer": 0.0,
+      "wer": 0.0,
+      "sentence_f1": 1.0,
+      "composite": 1.0
+    },
+    {
+      "sample_id": "sample_verbatim",
+      "cer": 0.05,
+      "wer": 0.2,
+      "sentence_f1": 1.0,
+      "composite": 0.92
+    }
+  ],
+  "aggregate": {
+    "samples": 2,
+    "cer": 0.025,
+    "wer": 0.1,
+    "sentence_f1": 1.0,
+    "composite": 0.96
+  }
+}
